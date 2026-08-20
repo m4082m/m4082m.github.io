@@ -1,0 +1,33 @@
+{
+  "name": "m4082m.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://m4082m.github.io/",
+  "bugs": {
+    "url": "https://github.com/m4082m/m4082m.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4082m/m4082m.github.io.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}

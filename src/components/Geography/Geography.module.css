@@ -1,0 +1,31 @@
+
+#View {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+#list  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    padding: 10px; 
+
+    border: solid 2px grey;
+}
+
+.list_raw {
+    display: flex;
+    flex-direction: row;
+}
+
+.list_raw_p { 
+    margin: 0px;
+    padding: 0px;
+}
